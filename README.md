@@ -2,7 +2,47 @@
 
 ## 📌 Project Overview
 
-An exploratory data analysis of New York City subway ridership for the full calendar year 2021, using hourly turnstile data from the [MTA Open Data Portal](https://data.ny.gov/resource/wujg-7c2s.json). This project collects, cleans, and analyzes over 23 million rows of MTA subway ridership data across all 423 active station complexes in NYC. The goal is to uncover ridership patterns by time (hour, day, month), geography (borough, station), and fare type (OMNY vs. MetroCard).
+This project is an exploratory data analysis of New York City subway ridership for the full calendar year 2021, using hourly ridership data from the [MTA Open Data Portal](https://data.ny.gov/).
+
+In 2021, the MTA faced one of its most critical recovery periods following the COVID-19 pandemic. This analysis examines over 23 million rows of ridership data across all 423 active station complexes in NYC, uncovering patterns by time (hour, day, month), geography (borough, station), and fare type (OMNY vs. MetroCard) — providing MTA board members and executive leadership with a data-driven foundation for decisions around service planning, resource allocation, and infrastructure investment.
+
+---
+
+## 🔍 Key Findings
+
+### Key Findings
+
+**Ridership Overview**
+
+| Metric | Value |
+|---|---|
+| Total ridership | 761.1M across 12 months |
+| Total transfers | 34.5M (4.5% of riders) |
+| Active stations | 423 across 4 boroughs |
+
+**Time Trends**
+
+| Metric | Value |
+|---|---|
+| Busiest month | October (83.6M riders) — ridership grew steadily from a February low of ~40M |
+| Peak hour | 5PM (~67M annual), with a secondary morning peak at 8AM (~55M) |
+| Weekday vs. weekend | Weekdays average ~118M riders vs. ~74M on weekends — roughly 60% more traffic |
+
+**Geography**
+
+| Metric | Value |
+|---|---|
+| Manhattan dominance | 50.1% of all ridership; all top 5 busiest stations are in Manhattan |
+| Busiest station | Times Square-42 St at 23.4M riders, followed by 34 St-Penn Station (19M) |
+| First outer borough station | 74-Broadway/Jackson Hts-Roosevelt Av, Queens — #7 at 9.4M |
+
+**Fare & Payment**
+
+| Metric | Value |
+|---|---|
+| OMNY adoption | Grew from 11.5% in January to 21.1% by year-end vs. 78.9% MetroCard |
+| Top fare class | Full Fare MetroCard (~275M riders) |
+| Unlimited pass usage | 7-day + 30-day passes combined account for 29.5% of all rides |
 
 ---
 
@@ -10,18 +50,18 @@ An exploratory data analysis of New York City subway ridership for the full cale
 
 ```
 ├── data/
-│   ├── mta_2021_01.csv             # Raw monthly data (Jan–Dec)
+│   ├── mta_2021_01.csv             
 │   ├── ...
 │   ├── mta_2021_12.csv
-│   └── mta_2021_clean.csv          # Combined & cleaned dataset
+│   └── mta_2021_clean.csv          
 ├── documentation/
 │   ├── MTA_SubwayHourlyRidership_DataDictionary.pdf
 │   └── MTA_SubwayHourlyRidership_Overview.pdf
 ├── notebooks/
-│   ├── data_acquisition.ipynb      # API data collection
-│   ├── mvp.ipynb                   # Data cleaning & EDA
-│   └── data_visualizations.ipynb   # Charts & visualizations
-├── visualiations
+│   ├── data_acquisition.ipynb      
+│   ├── mvp.ipynb                   
+│   └── data_visualizations.ipynb   
+├── visualizations
 │   ├── kpi_cards.png
 │   ├── key_insights.png
 │   ├── ridership_by_month.png
@@ -38,7 +78,7 @@ An exploratory data analysis of New York City subway ridership for the full cale
 
 ## 🗃️ Dataset
 
-**Source:** [MTA Subway Hourly Ridership — data.ny.gov](https://data.ny.gov/resource/wujg-7c2s.json)
+**Source:** [MTA Subway Hourly Ridership — data.ny.gov](https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-2020-2024/wujg-7c2s/about_data)
 
 The dataset captures subway entries at turnstiles via OMNY tap or MetroCard swipe, aggregated at the hourly level by station complex and fare class.
 
