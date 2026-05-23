@@ -1,39 +1,36 @@
-# 🚇 MTA Subway Ridership Analysis (2021)
-
-An exploratory data analysis of New York City subway ridership for the full calendar year 2021, using hourly turnstile data from the [MTA Open Data Portal](https://data.ny.gov/resource/wujg-7c2s.json).
-
----
+# 🚇 MTA Subway Ridership Analysis
 
 ## 📌 Project Overview
 
-This project collects, cleans, and analyzes over 23 million rows of MTA subway ridership data across all 423 active station complexes in NYC. The goal is to uncover ridership patterns by time (hour, day, month), geography (borough, station), and fare type (OMNY vs. MetroCard).
-
-### Key Findings
-
-| Metric | Value |
-|---|---|
-| Total Ridership | 761.1M |
-| Total Transfers | 34.5M (4.5% of riders) |
-| Active Stations | 423 across 4 boroughs |
-| Busiest Month | October (83.6M riders) |
-| OMNY Adoption | 21.1% vs. 78.9% MetroCard |
+An exploratory data analysis of New York City subway ridership for the full calendar year 2021, using hourly turnstile data from the [MTA Open Data Portal](https://data.ny.gov/resource/wujg-7c2s.json). This project collects, cleans, and analyzes over 23 million rows of MTA subway ridership data across all 423 active station complexes in NYC. The goal is to uncover ridership patterns by time (hour, day, month), geography (borough, station), and fare type (OMNY vs. MetroCard).
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
 ├── data/
-│   ├── mta_2021_01.csv       # Raw monthly data (Jan–Dec)
+│   ├── mta_2021_01.csv             # Raw monthly data (Jan–Dec)
 │   ├── ...
 │   ├── mta_2021_12.csv
-│   └── mta_2021_clean.csv    # Combined & cleaned dataset
-├── output/
-│   └── kpi_cards.png         # KPI dashboard visualization
+│   └── mta_2021_clean.csv          # Combined & cleaned dataset
+├── documentation/
+│   ├── MTA_SubwayHourlyRidership_DataDictionary.pdf
+│   └── MTA_SubwayHourlyRidership_Overview.pdf
 ├── notebooks/
 │   ├── data_acquisition.ipynb      # API data collection
 │   ├── mvp.ipynb                   # Data cleaning & EDA
 │   └── data_visualizations.ipynb   # Charts & visualizations
+├── visualiations
+│   ├── kpi_cards.png
+│   ├── key_insights.png
+│   ├── ridership_by_month.png
+│   ├── ridership_by_day.png
+│   ├── ridership_by_hour.png
+│   ├── ridership_by_borough.png
+│   ├── borough_share_donut.png
+│   ├── top_10_stations.png
+│   └── fare_class_breakdown.png
 └── README.md
 ```
 
@@ -60,7 +57,7 @@ The dataset captures subway entries at turnstiles via OMNY tap or MetroCard swip
 
 ---
 
-## ⚙️ Notebooks
+## 📓 Notebooks
 
 ### 1. `data_acquisition.ipynb`
 - Makes paginated HTTP GET requests to the MTA Socrata API
@@ -112,7 +109,7 @@ The dataset captures subway entries at turnstiles via OMNY tap or MetroCard swip
 
 ---
 
-## 🛠️ Tech Stack
+## 🧰 Built With
 
 - **Python 3.12**
 - **pandas** — data loading, cleaning, aggregation
