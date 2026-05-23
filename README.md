@@ -8,41 +8,27 @@ In 2021, the MTA faced one of its most critical recovery periods following the C
 
 ---
 
-## 🔍 Key Findings
-
-### Key Findings
+### 🔍 Key Findings
 
 **Ridership Overview**
-
-| Metric | Value |
-|---|---|
-| Total ridership | 761.1M across 12 months |
-| Total transfers | 34.5M (4.5% of riders) |
-| Active stations | 423 across 4 boroughs |
+- 761.1M total riders across 12 months
+- 34.5M transfers (4.5% of riders)
+- 423 active stations across 4 boroughs
 
 **Time Trends**
-
-| Metric | Value |
-|---|---|
-| Busiest month | October (83.6M riders) — ridership grew steadily from a February low of ~40M |
-| Peak hour | 5PM (~67M annual), with a secondary morning peak at 8AM (~55M) |
-| Weekday vs. weekend | Weekdays average ~118M riders vs. ~74M on weekends — roughly 60% more traffic |
+- Ridership grew steadily through 2021, bottoming out in February (~40M) and peaking in October (~83.6M)
+- Weekdays average ~118M riders vs. ~74M on weekends — roughly 60% more traffic
+- Peak hour is 5PM (~67M annual), with a secondary morning peak at 8AM (~55M)
 
 **Geography**
-
-| Metric | Value |
-|---|---|
-| Manhattan dominance | 50.1% of all ridership; all top 5 busiest stations are in Manhattan |
-| Busiest station | Times Square-42 St at 23.4M riders, followed by 34 St-Penn Station (19M) |
-| First outer borough station | 74-Broadway/Jackson Hts-Roosevelt Av, Queens — #7 at 9.4M |
+- Manhattan accounts for 50.1% of all ridership, followed by Brooklyn (24.1%), Queens (16.2%), and the Bronx (9.6%)
+- All top 5 busiest stations are in Manhattan — Times Square leads at 23.4M, followed by 34 St-Penn Station (19M)
+- First outer borough station is 74-Broadway/Jackson Hts-Roosevelt Av, Queens at #7 (9.4M)
 
 **Fare & Payment**
-
-| Metric | Value |
-|---|---|
-| OMNY adoption | Grew from 11.5% in January to 21.1% by year-end vs. 78.9% MetroCard |
-| Top fare class | Full Fare MetroCard (~275M riders) |
-| Unlimited pass usage | 7-day + 30-day passes combined account for 29.5% of all rides |
+- MetroCard dominates at 78.9% vs. OMNY at 21.1%, though OMNY nearly doubled from 11.5% in January
+- Full Fare MetroCard is the single largest fare class (~275M riders)
+- 7-day and 30-day unlimited passes combined account for 29.5% of all rides
 
 ---
 
