@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a>
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/readme.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
