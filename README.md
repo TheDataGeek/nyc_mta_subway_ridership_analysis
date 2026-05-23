@@ -107,31 +107,31 @@ The dataset captures subway entries at turnstiles via OMNY tap or MetroCard swip
 ## 📊 Visualizations
 
 ### KPI Summary
-![KPI Cards](output/kpi_cards.png)
+![KPI Cards](visualizations/kpi_cards.png)
 
 ### Key Insights
-![Key Insights](output/key_insights.png)
+![Key Insights](visualizations/key_insights.png)
 
 ### Ridership by Month
-![Ridership by Month](output/ridership_by_month.png)
+![Ridership by Month](visualizations/ridership_by_month.png)
 
 ### Ridership by Day of Week
-![Ridership by Day](output/ridership_by_day.png)
+![Ridership by Day](visualizations/ridership_by_day.png)
 
 ### Ridership by Hour
-![Ridership by Hour](output/ridership_by_hour.png)
+![Ridership by Hour](visualizations/ridership_by_hour.png)
 
 ### Ridership by Borough
-![Ridership by Borough](output/ridership_by_borough.png)
+![Ridership by Borough](visualizations/ridership_by_borough.png)
 
 ### Borough % Share of Total Ridership
-![Borough Share Donut](output/borough_share_donut.png)
+![Borough Share Donut](visualizations/borough_share_donut.png)
 
 ### Top 10 Busiest Stations
-![Top 10 Stations](output/top_10_stations.png)
+![Top 10 Stations](visualizations/top_10_stations.png)
 
 ### Fare Class Breakdown
-![Fare Class Breakdown](output/fare_class_breakdown.png)
+![Fare Class Breakdown](visualizations/fare_class_breakdown.png)
 
 ---
 
